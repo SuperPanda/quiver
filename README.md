@@ -106,6 +106,10 @@ in the **quiver** `src` directory and then open `localhost:8000` in browser.
 If you have any other problems building **quiver**, [open an
 issue](https://github.com/varkor/quiver/issues/new) detailing the problem and I'll try to help.
 
+
+### Building the service worker 
+Run `npm install` instead the `src/service-worker` directory. Then run `node build.js` from within that directory.
+
 ## Thanks to
 - [S. C. Steenkamp](https://www.cl.cam.ac.uk/~scs62/), for helpful discussions regarding the
 aesthetic rendering of arrows.
